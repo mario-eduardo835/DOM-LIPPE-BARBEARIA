@@ -1,0 +1,127 @@
+/* PAGINA DE PRODUTOS E CONTATOS*/
+
+ .produtos-cabesario{background: #555555;
+                     padding: 20px 0;}
+
+
+ .caixa{ position: relative;
+         margin: 0 auto;
+         width: 940px;}
+        
+        
+
+ nav { position: absolute;
+      top:110px;
+      right: 0;}
+
+
+
+ nav li { display: inline;
+         margin:0 0 0 15px;}
+
+
+ nav a { text-transform: uppercase; 
+  	    color: #000000;
+  	    font-weight: bold;
+  	    font-size: 22px;
+ 	    text-decoration:none; }
+
+
+ nav a:hover { color: #C78C19;
+	          text-decoration: underline; }
+
+
+/*PRODUTOS*/
+
+ .produtos { width: 940px; 
+	        margin: 0 auto;
+	        padding: 50px 0;}
+
+
+ .produtos li{ display: inline-block; 
+	           text-align: center;
+	           width: 30%;
+	           vertical-align: top;
+	           margin:0 1% ;
+	           padding: 30px 20px;
+	           box-sizing: border-box;
+	           border: #000000 4px solid;
+	           border-radius: 10px;}
+
+
+ .produtos li:hover {border-color: #C78C19;}
+
+ .produtos li:active {border-color: #088C19;}
+
+ .produtos li:hover h2 { font-size: 35px;}
+
+ .produtos h2{  font-size: 25px;
+	            font-weight: bold; }
+
+ .produto-descrição{ font-size: 19px; }
+		      		 
+
+ .produto-preço{ font-size: 22px;
+	             font-weight: bold; 
+		         margin-top: 11px }
+
+
+/*CONTATOS*/
+
+  main {  width: 940px; 
+          margin: 0 auto;}
+
+  form { margin: 20px 0; 
+         padding: 0  30px;} 
+
+  form label, form legend 
+              {display: block; 
+               font-size: 20px; 
+               margin: 0 0 10px;}       
+  
+  .input-padrao
+              {display: block; 
+               margin: 0 0 20px;
+               padding: 10px 25px;
+               width: 50%; }
+   
+   .checkbox{ margin: 20px 0px;  }
+
+   .enviar{ width: 40%; 
+            padding: 15px 0px;
+	        background:#ffcf40;
+	        color: black;
+	        font-weight: bold;
+	        font-size:20px ;
+	        border:none ;
+	        border-radius: 5px;
+	        
+	        cursor: pointer; }
+
+    .enviar:hover{ background:#ffbf00;
+                   transform: scale(1.1);
+                   transition: 1s background;
+                   transition: 0.3s}
+
+    table { margin: 20px 30px; 
+            width: 50%; 
+            text-align: center;}
+    
+    thead { background: #555555;
+    	    color: white;
+    	    font-weight: bold; }
+
+    td,th { border:1px solid #000000;
+            padding:15px 8px; }
+     
+/* roda PE*/
+
+ footer { text-align: center;
+          padding: 20px 0; 
+          background: url("bg.jpg");}
+ 
+ .copy {font-size: 16px;
+	    margin:5px 0 0 ;
+	    color: #f8f8ff;}
+
+
